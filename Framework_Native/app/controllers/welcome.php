@@ -4,6 +4,6 @@ class Welcome extends Controller
 {
     public function index()
     {
-        $this->view("home/index");
+        $this->view("welcome/index");
     }
 }
