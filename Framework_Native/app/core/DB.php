@@ -41,7 +41,7 @@ class DB
         DB::query("DELETE FROM $table WHERE $where = $data_where");
     }
 
-    public function update($table, $update, $where, $data_where)
+    public static function update($table, $update, $where, $data_where)
     {
         DB::query("UPDATE $table SET $update WHERE $where = $data_where");
     }
